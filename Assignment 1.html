@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Food App</title>
+        <style>
+            body{
+                padding: 0px;
+                margin: 0px;
+                background-color: grey;
+            }
+            .navbar ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+            }
+            .navbar li{
+                float: left;
+                padding: 20px;
+                font-size: 20px;
+                display: list-item;
+            }
+            .navbar li a{
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16x;
+                text-decoration: none;
+            }
+            .navbar li a:hover{
+                background-color: black;
+            }
+            .text-content{
+                text-decoration: none;
+                color: black;
+            }
+            .image{
+                width: 50%;
+                margin: 0 auto;
+            }
+            .label{
+                margin-left: 240px;
+                margin-bottom: 40px;
+            }
+            .food{
+                width: 500px;
+                height: 500px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <ul>
+                <li><a href="#">Index</a></li>
+                <li><a href="#">Food</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="text-content">
+                <h2>Top favourite foods</h2>
+                <ul>
+                    <li><a href="#">Biriyani</a></li>
+                    <li><a href="##">Pani Puri</a></li>
+                    <li><a href="###">Cake</a></li>
+                    <li><a href="####">Choclate</a></li>
+                </ul>
+            </div>
+            <div class="image">
+                <div id="biriyani">
+                    <img src="ChickenBiryani.jpg" class="food">
+                    <p class="label">Biriyani</p>
+                </div>
+                <div id="panipuri">
+                    <img src="Panipuri.jpg" class="food">
+                    <p class="label">Pani Puri</p>
+                </div>
+                <div id="cake">
+                    <img src="cake.jpeg" class="food">
+                    <p class="label">Cake</p>
+                </div>
+                <div id="choclate">
+                    <img src="Choclate.jpg" class="food">
+                    <p class="label">Choclate</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
